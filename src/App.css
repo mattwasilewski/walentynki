@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.countdown-container {
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.images-row {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.image-container {
+  width: calc(50% - 40px); /* Dostosuj marginesy zgodnie z potrzebami */
+  margin: 0 20px; /* Dostosuj aby uzyskać odpowiednie odstępy */
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.cross {
+  position: absolute;
+  top: 0; /* Pozycjonowanie na górze kontenera */
+  left: 0; /* Pozycjonowanie na lewej krawędzi kontenera */
+  width: 100%; /* Pełna szerokość kontenera */
+  height: 100%; /* Pełna wysokość kontenera */
+  background: rgba(255, 0, 0, 0.216); /* Czerwone tło z przeźroczystością */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vw; /* Duży rozmiar tekstu, dostosuj wg potrzeb */
+  color: rgb(255, 0, 0); /* Kolor tekstu */
+  z-index: 10;
+}
+
+.fade-in {
+  animation: fadeIn 20s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+.fade-out {
+  animation: fadeOut 4s forwards;
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+  }
+}
