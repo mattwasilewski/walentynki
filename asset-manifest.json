@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/walentynki/static/css/main.0033e288.css",
-    "main.js": "/walentynki/static/js/main.fe94578e.js",
+    "main.js": "/walentynki/static/js/main.b772fee9.js",
     "static/js/592.030d9d35.chunk.js": "/walentynki/static/js/592.030d9d35.chunk.js",
     "static/media/layla.mp3": "/walentynki/static/media/layla.39169a512ea91bc52fee.mp3",
     "static/media/background.png": "/walentynki/static/media/background.f4783fd7b49868210708.png",
@@ -11,11 +11,11 @@
     "static/media/kot.jpg": "/walentynki/static/media/kot.02532f760a0a41d750d3.jpg",
     "index.html": "/walentynki/index.html",
     "main.0033e288.css.map": "/walentynki/static/css/main.0033e288.css.map",
-    "main.fe94578e.js.map": "/walentynki/static/js/main.fe94578e.js.map",
+    "main.b772fee9.js.map": "/walentynki/static/js/main.b772fee9.js.map",
     "592.030d9d35.chunk.js.map": "/walentynki/static/js/592.030d9d35.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0033e288.css",
-    "static/js/main.fe94578e.js"
+    "static/js/main.b772fee9.js"
   ]
 }
